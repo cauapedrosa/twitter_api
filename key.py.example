@@ -1,0 +1,10 @@
+# replace abcd with the keys and tokens you got from twitter API
+# remove .example extension from key.py to import it to main.py
+
+consumer_key = 'abcd'
+consumer_key_secret = 'abcd'
+bearer_token = 'abcd'
+access_token = 'abcd'
+access_token_secret = 'abcd'
+client_id = 'abcd'
+client_secret = 'abcd'
