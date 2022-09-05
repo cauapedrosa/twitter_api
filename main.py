@@ -37,7 +37,7 @@ def main():
         if twt_metrics < min_likes:
             print(f'#{n+1}/{len_twts} - ID:{twt_id} will be deleted. Metrics {twt_metrics} is less than {min_likes}')
             # Uncomment the next command to enable deleting. Leave it commented to perform a test run.
-            # api.destroy_status(tweetid)
+            # api.destroy_status(twt_id)
         else:
             print(f'#{n+1}/{len_twts} - ID:{twt_id} will be spared. Metrics {twt_metrics} is greater than {min_likes}')
 
